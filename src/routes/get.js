@@ -12,7 +12,7 @@ router.use('/', (req,res,next) => {
 })
 
 router.get('/', (req,res,next) => {
-    res.sendStatus(204)
+    res.send("Funcionou")
     res.end();
 })
 
