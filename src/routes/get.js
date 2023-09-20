@@ -12,7 +12,7 @@ router.use('/', (req,res,next) => {
 })
 
 router.get('/', (req,res,next) => {
-    res.sendStatus(204).send("Sensor adicionado")
+    res.sendStatus(204)
     res.end();
 })
 
